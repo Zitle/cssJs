@@ -4,6 +4,15 @@ body{
 	margin: 0;
 	padding: 0;
 }
+h1{
+	font-size: 30px;
+	color: #352384;
+}
+h2{
+	font-size: .875rem;
+	letter-spacing: 1.5px;
+	color: #352384;
+}
 #contenedor-principal{
 	width: 100%;
 	height:500px;	
@@ -12,12 +21,13 @@ body{
 	background-repeat: no-repeat;
 	border: solid green 1px;
 }
-#contenedor-principal > div{
+#contenedor-principal > article{
 	display: inline-block;
 	position: absolute;
+	padding: 60px;
 	width: 40%;
-	height:100px;
+	height:auto;
 	background: white;
-	left:60%;
+	left:51%;
 	top: 20%;
 }
